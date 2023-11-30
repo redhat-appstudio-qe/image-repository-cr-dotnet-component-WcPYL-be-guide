@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dotnet60-basic-rmop
     spec:
       containers:
-      - image: dotnet-image:latest
+      - image: quay.io/redhat-appstudio-qe/rs-demos-hstk-tenant/image-repository-cr-dotnet-component/devfile-sample-dotnet60-basic-rmop
         imagePullPolicy: Always
         name: main
         ports:
